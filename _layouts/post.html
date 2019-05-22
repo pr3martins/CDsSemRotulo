@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1>{{page.episode_number}} - {{page.title}}</h1>
+
+<p>
+    {{page.date | date_to_string}}
+
+    {% assign author = site.authors | where: username, page.author_username | first %}
+
+    {% if author %}
+        -
+        <a href="{{author.url}}">
+             {{author.name}}
+        </a>
+    {% endif %}
+</p>
+
+{{content}}
