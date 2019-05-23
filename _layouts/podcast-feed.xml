@@ -15,11 +15,14 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
+    <author>{{ site.author }}</author>
     <itunes:author>{{ site.author }}</itunes:author>
     <itunes:owner>
       <itunes:name>{{ site.author }}</itunes:name>
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
+
+
     <itunes:subtitle>{{ site.podcast.subtitle }}</itunes:subtitle>
     <itunes:image href="{{ site.podcast.art }}"/>
 
