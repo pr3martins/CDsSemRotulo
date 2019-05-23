@@ -24,6 +24,7 @@ licence: CC-BY-CA
 # Podcast
 podcast:
   title: CDs sem Rótulo
+  link: cdssemrotulo.com
   art: https://archive.org/download/CDsSemRotulo/images/00-Cover-Original.png
   category: Education
   subcategories:
