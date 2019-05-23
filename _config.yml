@@ -24,8 +24,9 @@ licence: CC-BY-CA
 # Podcast
 podcast:
   title: CDs sem Rótulo
-  link: cdssemrotulo.com
+  link: www.cdssemrotulo.com
   author: Paulo Rodrigo Martins
+  email: pr3martins@gmail.com
   art: https://archive.org/download/CDsSemRotulo/images/00-Cover-Original.png
   category: Education
   subcategories:

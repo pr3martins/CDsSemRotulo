@@ -15,11 +15,11 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
-    <author>{{ site.author }}</author>
-    <itunes:author>{{ site.author }}</itunes:author>
+    <author>{{ site.podcast.author }}</author>
+    <itunes:author>{{ site.podcast.author }}</itunes:author>
     <itunes:owner>
-      <itunes:name>{{ site.author }}</itunes:name>
-      <itunes:email>{{ site.email }}</itunes:email>
+      <itunes:name>{{ site.podcast.author }}</itunes:name>
+      <itunes:email>{{ site.podcast.email }}</itunes:email>
     </itunes:owner>
 
 
