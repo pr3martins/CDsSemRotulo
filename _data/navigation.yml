@@ -6,3 +6,5 @@
   link: /blog.html
 - name: Equipe
   link: /staff.html
+- name: Feed
+  link: /podcast/feed/
